@@ -4,7 +4,7 @@
     margin-top: 10px;
 }
 contant {
-    max-width: 2000px;
+    max-width: 100%;
 }
 div{
     margin: 0 auto;
@@ -196,6 +196,57 @@ footer p a:hover {
 .icon {
     width: 80px;
     padding-bottom: 15px;
+}
+.gens {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+.worker {
+    width: 300px;
+    margin-top: 20px;
+    margin: 10px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    
+}
+.context {
+    grid-column:2/3;
+    grid-row: 1/2;
+    font-size: smaller;
+    margin: 30px;
+    margin-top: 50px;
+}
+.wiver{
+    width: 400px;
+    margin-top: 20px;
+    grid-column:2/3;
+    grid-row: 2/3;
+}
+.riv{
+    grid-column:1/2;
+    grid-row: 2/3;
+    font-size: smaller;
+    margin: 30px;
+    margin-top: 50px;
+}
+.loc{
+    width: 400px;
+    grid-column:1/2;
+    grid-row: 3/3;
+}
+.shop{
+    grid-column:2/3;
+    grid-row: 3/3;
+    font-size: smaller;
+    margin: 30px;
+    margin-top: 50px;
+}
+.worker, .wiver, .loc{
+    margin-top: 20px;
+    margin: 10px;
+    width: 300px auto;
+    border: 15px solid #d9c2a3;
 }
 
 
