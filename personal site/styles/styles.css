@@ -12,11 +12,13 @@ body{
     padding-top: 10px;
     padding-left: 15px;
 }
+
 header{
-    background-color:rgba(72, 138, 196, 0.7);
+    background-color:rgba(58, 99, 135);
     display: grid;
     grid-template-columns: 150px auto;
-    
+    position:fixed;
+    padding-right: 330px;
 }
 nav:header{
     background-color: rgb(29, 29, 29);
@@ -25,6 +27,7 @@ nav{
     text-align:center;
     color:rgb(170, 0, 255);
     display: flex;
+    margin: 0 100px;
     justify-content: space-around;
 }
 nav a {
@@ -43,6 +46,7 @@ nav:hover{
 }
 #second_page{
     display: grid;
+    padding-top:95px;
     grid-template-columns: 11,1fr;
     grid-template-rows: 3,1fr;
 }
@@ -52,29 +56,36 @@ nav:hover{
     grid-template-rows: 5,1fr;
 }
 .art_topic{
-    background-color:rgb(72, 138, 196, 0.7);
+    background-color:rgb(58, 99, 135);
     color:rgb(32, 32, 32);
-    
-    padding: 15px;
-    
+    padding: 70px;
+    padding-top: 10px;
     grid-column: 1/2;
     grid-row: 1/3;
+    padding-bottom: 1000px;
 }
-.art_topic2{
-    background-color:rgb(10, 83, 219);
+.artist{
     color:rgb(32, 32, 32);
-    display: grid;
-    padding: 15px;
-    
+    padding: 10px;
     grid-column: 1/2;
     grid-row: 1/3;
-    margin: 5px;
+    position:fixed;
+
+}
+.artist a:hover{
+    color:rgb(0, 0, 0)
+}
+.art_topic a:hover:not(.active){
+    color:coral
+}
+.first{
+    width:100%;
 }
 .art{
     background-color:rgb(202, 197, 215);
     color:rgb(24, 24, 24);
-    padding: 15px;
-    
+    padding: 10px;
+
     grid-column: 2/3;
     grid-row: 1/2;
     margin: 5px;
@@ -82,102 +93,115 @@ nav:hover{
 .morart{
     background-color:rgb(134, 128, 149);
     color:rgb(142, 60, 60);
-    padding: 15px;
-    
+    padding: 10px;
+
     grid-column: 2/3;
     grid-row: 2/3;
-    margin: 5px;
+
 }
 .ads{
     background-color:rgb(81, 68, 112);
     color:rgb(24, 24, 24);
-    
-    padding: 15px;
+    margin: 5px;
+    padding:5px;
     grid-column: 3/4;
     grid-row: 1/3;
-    margin: 5px;
+
 }
 .ads2{
     background-color:rgb(81, 68, 112);
     color:rgb(24, 24, 24);
     padding-bottom: 2000px;
-    padding: 15px;
+    padding: 5px;
     grid-column: 10/11;
     grid-row: 1/3;
-    margin: 5px;
+    margin-top: 10px;
     display: grid;
+    width: 80%;
 }
 .you_art{
     background-color:rgb(84, 34, 209);
     color:rgb(24, 24, 24);
-    padding: 15px;
+    padding: 5px;
     display: grid;
     grid-column: 2/4;
     grid-row: 1/2;
-    margin: 5px;
+    margin: 10px;
+    width: 90%;
 }
 .you_art2{
-    background-color:rgb(84, 34, 209);
+    background-color:rgb(118, 113, 130);
     color:rgb(24, 24, 24);
-    padding: 15px;
+    padding: 5px;
     display: grid;
     grid-column: 4/6;
     grid-row: 1/2;
-    margin: 5px;
+    margin: 10px;
+    width: 90%;
 }
 .you_art3{
-    background-color:rgb(84, 34, 209);
+    background-color:rgb(63, 190, 131);
     color:rgb(24, 24, 24);
-    padding: 15px;
+    padding: 5px;
     display: grid;
     grid-column: 6/8;
     grid-row: 1/2;
-    margin: 5px;
+    margin: 10px;
+    width: 90%;
 }
 .you_art4{
-    background-color:rgb(84, 34, 209);
+    background-color:rgb(225, 113, 149);
     color:rgb(24, 24, 24);
-    padding: 15px;
+    padding: 5px;
     display: grid;
     grid-column: 8/10;
     grid-row: 1/2;
-    margin: 5px;
+    margin: 10px;
+    width: 90%;
 }
 .you_art5{
-    background-color:rgb(84, 34, 209);
+    background-color:rgb(231, 205, 141);
     color:rgb(24, 24, 24);
-    padding: 15px;
+    padding: 5px;
     display: grid;
     grid-column: 2/4;
     grid-row: 2/3;
-    margin: 5px;
+    margin: 10px;
+    width: 90%;
 }
 .you_art6{
-    background-color:rgb(84, 34, 209);
+    background-color:rgb(128, 172, 206);
     color:rgb(24, 24, 24);
-    padding: 15px;
+    padding: 5px;
     display: grid;
     grid-column: 4/6;
     grid-row: 2/3;
-    margin: 5px;
+    margin: 10px;
+    width: 90%;
 }
 .you_art7{
-    background-color:rgb(84, 34, 209);
+    background-color:rgb(104, 90, 94);
     color:rgb(24, 24, 24);
-    padding: 15px;
+    padding: 5px;
     display: grid;
     grid-column: 6/8;
     grid-row: 2/3;
-    margin: 5px;
+    margin: 10px;
+    width: 90%;
 }
 .you_art8{
-    background-color:rgb(84, 34, 209);
+    background-color:rgb(222, 226, 175);
     color:rgb(24, 24, 24);
-    padding: 15px;
+    padding: 5px;
     display: grid;
     grid-column: 8/10;
     grid-row: 2/3;
-    margin: 5px;
+    margin: 10px;
+    width: 90%;
+}
+.first {
+    max-width: 200px;
+    justify-self: center;
 }
 .cash{
     background-color:rgb(84, 34, 209);
@@ -187,6 +211,7 @@ nav:hover{
     grid-column: 2/10;
     grid-row: 2/3;
     margin: 5px;
+    width: 100%;
 }
 .art_topic2{
     background-color:rgb(115, 143, 195);
@@ -197,13 +222,14 @@ nav:hover{
     grid-column: 1/2;
     grid-row: 1/5;
     margin: 5px;
+    width: 100%;
 }
 .art_topic3{
     background-color:rgb(115, 143, 195);
     color:rgb(32, 32, 32);
     
     padding: 15px;
-    
+    width: 100%;
     grid-column: 2/10;
     grid-row: 1/2;
     margin: 5px;
@@ -217,6 +243,7 @@ nav:hover{
     grid-row: 1/5;
     margin: 5px;
     display: grid;
+    width: 100%;
 }
 .folly{
     background-color:rgb(81, 68, 112);
@@ -228,4 +255,6 @@ nav:hover{
     margin: 5px;
     display: grid;
 }
-
+.meme{
+    max-width: 90%;
+}
